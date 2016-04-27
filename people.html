@@ -1,45 +1,45 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-   
-    <title>FINAL PROJECT</title>
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="description" content="SlidesJS is a simple slideshow plugin for jQuery. Packed with a useful set of features to help novice and advanced developers alike create elegant and user-friendly slideshows.">
-      <meta name="author" content="Nathan Searles">
+  <head>
+    <meta charset="UTF-8">
+     
+      <title>my.Photos {People}</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="SlidesJS is a simple slideshow plugin for jQuery. Packed with a useful set of features to help novice and advanced developers alike create elegant and user-friendly slideshows.">
+        <meta name="author" content="Nathan Searles">
 
-      <!-- SlidesJS Required (if responsive): Sets the page width to the device width. -->
-      <meta name="viewport" content="width=device-width">
-      <!-- End SlidesJS Required -->      
+        <!-- SlidesJS Required (if responsive): Sets the page width to the device width. -->
+        <meta name="viewport" content="width=device-width">
+        <!-- End SlidesJS Required -->      
+        
+        <!-- THUMBNAIL plug in CSS --> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <meta http-equiv="cleartype" content="on">
+        <!-- End THUMBNAIL plug in CSS --> 
+
+
+        <!--CSS/OTHER Links-->
+        
+        <!-- <link rel="stylesheet" href="css/style.css"> -->
+        <link href='https://fonts.googleapis.com/css?family=Fira+Sans:400,300,500,700' rel='stylesheet' type='text/css'>
+
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -
+        <!-BOOTSTRAP -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
       
-      <!-- THUMBNAIL plug in CSS --> 
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-      <meta http-equiv="cleartype" content="on">
-      <!-- End THUMBNAIL plug in CSS --> 
+        <!-- <link to renamed CSS files for Query Responsive Thumbnail Gallery Plugin created by John Polacek********/ -->
+        <link rel="stylesheet" href="css/normalize2.css">
+        <link rel="stylesheet" href="css/main2.css">
 
-
-      <!--CSS/OTHER Links-->
-      
-      <!-- <link rel="stylesheet" href="css/style.css"> -->
-      <link href='https://fonts.googleapis.com/css?family=Fira+Sans:400,300,500,700' rel='stylesheet' type='text/css'>
-
-      <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -
-      <!-BOOTSTRAP -->
-      <link href="css/bootstrap.min.css" rel="stylesheet">
-      <link href="css/style.css" rel="stylesheet">
+        <script src="js/modernizr-2.0.6.min.js"></script>
     
-      <!-- <link to renamed CSS files for Query Responsive Thumbnail Gallery Plugin created by John Polacek********/ -->
-      <link rel="stylesheet" href="css/normalize2.css">
-      <link rel="stylesheet" href="css/main2.css">
+  </head>
 
-      <script src="js/modernizr-2.0.6.min.js"></script>
+<body>
 
-    
-    </head>
-
-
-<!--NAVIGATION-->
+    <!--NAVIGATION-->
       <nav class="navbar navbar-default navbar-fixed-top navigation">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
             <span class="icon-bar"></span>
@@ -48,69 +48,302 @@
           </button>
 
           <div class="collapse navbar-collapse navbar-collapse" id="myNavbar">
-            
-            <div class="sub-nav">link</div>  
-            <div class="sub-nav">link</div>  
-            <div class="sub-nav">link</div>
-            
-            <div>
-              <a href="index.html"><img src="images/home.png" alt="home"></src></a>
-            </div>
-          
-          </div>
-      
-      </nav>
+              <div class="nav-wrapper">
+                          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+                 <h1 class="title" style="display: inline-block; padding: 1%; margin: auto; font-size: 1.5rem; float: right; color: white; background-color: black;">my.Photography</h1>
+              </div>
+          </div>  
 
+      </nav>
 
 
 <!--END NAVIGATION-->
  
-    <!--PHOTO GRID-->
-     <article>
-          
-      <div id="gallery">
-              <div id="gallery-view">
-                <img src="images/large/image1.jpg" id="main-image">
-              </div>
+<!--PHOTO GRID-->
 
-          <div id="gallery-nav">
 
-              <div id="nav-thumbnails">
+<h2><span>PEOPLE<span></h2>
 
-                  <img class="thumbnail-image" src="images/thumbs/thumb1.jpg">
-                  <img class="thumbnail-image" src="images/thumbs/thumb2.jpg">
-                  <img class="thumbnail-image" src="images/thumbs/thumb3.jpg">
-                  <img class="thumbnail-image" src="images/thumbs/thumb4.jpg">
-                  <img class="thumbnail-image" src="images/thumbs/thumb5.jpg">
-                  <img class="thumbnail-image" src="images/thumbs/thumb6.jpg">
-                  <img class="thumbnail-image" src="images/thumbs/thumb7.jpg">
-                  <img class="thumbnail-image" src="images/thumbs/thumb8.jpg">
-                  <img class="thumbnail-image" src="images/thumbs/thumb9.jpg">
-                  <img class="thumbnail-image" src="images/thumbs/thumb10.jpg">
-              </div>
+<div class="wrapper">
 
-              <div id="nav-buttons">
-                  <a href="images/thumbs/thumb10.jpg" class="gallery-button1"></a>
-                  <a href="images/thumbs/thumb10.jpg" class="gallery-button"></a>
-                  <a href="images/thumbs/thumb10.jpg" class="gallery-button"></a>
-                  <a href="images/thumbs/thumb10.jpg" class="gallery-button"></a>
-                  <a href="images/thumbs/thumb10.jpg" class="gallery-button"></a>
-                  <a href="images/thumbs/thumb10.jpg" class="gallery-button"></a>
-                  <a href="images/thumbs/thumb10.jpg" class="gallery-button"></a>
-                  <a href="images/thumbs/thumb10.jpg" class="gallery-button"></a>
-                  <a href="images/thumbs/thumb10.jpg" class="gallery-button"></a>
-                  <a href="images/thumbs/thumb10.jpg" class="gallery-button"></a>
+<!--TOP ROW -->
+
+        <!--IMAGE #1-->
+          <div class="responsive">
+            <div class="img">
+            <img src="images/people6.jpg" alt="PlayaCar, MX" width="300" height="200">
+            <div class="desc">Beginnings</div>
             </div>
           </div>
-        </div>
-    </div>
-               
-                <p class="credit">
-                  Photos by Erin Cullen Harris
-                </p>
-    </article>
 
-        <!--END PHOTO GRID-->
+        <!--IMAGE #2-->
+          <div class="responsive">
+            <div class="img">
+            <img src="images/people111.jpg" alt="Pumpkin Patch" width="300" height="200">
+            <div class="desc">Lady Jane</div>
+            </div>
+          </div>
+
+        <!--IMAGE #3-->
+          <div class="responsive">
+            <div class="img">
+            <img src="images/people3.jpg" alt="Northern Lights" width="300" height="200">
+            <div class="desc">Beautiful Boy</div>
+            </div>
+          </div>
+
+        <!--IMAGE #4-->
+          <div class="responsive">
+            <div class="img">
+            <img src="images/people5.jpg" alt="Joker" width="300" height="200">
+            <div class="desc">Harlequin</div>
+            </div>
+          </div>
+
+      <div class="clearfix"></div>
+
+
+<!-- END TOP ROW -->
+      
+<!--SECOND ROW -->
+
+        <!--IMAGE #1-->
+          <div class="responsive">
+            <div class="img">
+            <img src="images/peoplered.jpg" alt="Little Miss" width="300" height="200">
+            <div class="desc">Miss Red Shoes</div>
+            </div>
+          </div>
+
+        <!--IMAGE #2-->
+          <div class="responsive">
+            <div class="img">
+            <img src="images/people7.jpg" alt="KateC" width="300" height="200">
+            <div class="desc">Kate</div>
+            </div>
+          </div>
+
+        <!--IMAGE #3-->
+          <div class="responsive">
+            <div class="img">
+            <img src="images/thai11.jpg" alt="Thailand" width="300" height="200">
+            <div class="desc">Joy</div>
+            </div>
+          </div>
+
+        <!--IMAGE #4-->
+          <div class="responsive">
+            <div class="img">
+            <img src="images/people9.jpg" alt="GandK" width="300" height="200">
+            <div class="desc">Siblings</div>
+            </div>
+          </div>
+
+      <div class="clearfix"></div>
+
+
+<!-- END SECOND ROW -->
+
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <span class="close" style="color:white; margin-top: 5%; font-size: 5rem;">×</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+      </div>
+
+    <div style="padding:6px; color: black; text-align: center; padding-bottom: 5%;">
+      <p>This example combines CSS3 (animation and media queries) and JavaScript, to create a responsive image gallery that will enlarge an image when it is clicked on.</p>
+    </div>
+
+</div>
+
+<style>
+      
+* {
+      font-family: 'Fira Sans', sans-serif;
+}
+      /* The Image Box */
+      div.img {
+          border: 1px solid #ccc;
+      }
+
+      div.img:hover {
+          border: 1px solid #777;
+      }
+
+      h2 { 
+          padding-top: 3%; 
+          padding-bottom: 2%;
+          padding-left: 1%;
+          margin: 1%;
+          color: black;
+          text-decoration: none;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          font-weight: 400;
+          text-shadow: 0 0 1px rgba(255,255,255,0.3);
+          font-size: 2rem;
+      }
+
+      /* The Image */
+      div.img img {
+          width: 100%;
+          height: auto;
+          cursor: pointer;
+      }
+
+      /* Description of Image */
+      div.desc {
+          padding: 15px;
+          text-align: center;
+          color: black;
+      }
+
+      * {
+          box-sizing: border-box;
+      }
+
+      /* Add Responsiveness */
+      .responsive {
+          padding: 0 6px;
+          padding-bottom: 10px;
+          float: left;
+          width: 24.99999%;
+      }
+
+      /* The Modal (background) */
+      .modal {
+          display: none; /* Hidden by default */
+          position: fixed; /* Stay in place */
+          z-index: 1; /* Sit on top */
+          padding-top: 100px; /* Location of the box */
+          left: 0;
+          top: 0;
+          width: 100%; /* Full width */
+          height: 100%; /* Full height */
+          overflow: auto; /* Enable scroll if needed */
+          background-color: rgb(0,0,0); /* Fallback color */
+          background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+      }
+
+      /* Modal Content (image) */
+      .modal-content {
+          margin: auto;
+          margin-top: 5%;
+          display: block;
+          width: 80%;
+          max-width: 700px;
+      }
+
+      /* Caption of Modal Image */
+      #caption {
+          margin: auto;
+          display: block;
+          width: 80%;
+          max-width: 700px;
+          text-align: center;
+          color: #ccc;
+          padding: 10px 0;
+          height: 150px;
+      }
+
+      /* Add Animation */
+      .modal-content, #caption {    
+          -webkit-animation-name: zoom;
+          -webkit-animation-duration: 0.6s;
+          animation-name: zoom;
+          animation-duration: 0.6s;
+      }
+
+      @-webkit-keyframes zoom {
+          from {transform:scale(0)} 
+          to {transform:scale(1)}
+      }
+
+      @keyframes zoom {
+          from {transform:scale(0.1)} 
+          to {transform:scale(1)}
+      }
+
+      /* The Close Button */
+      .close {
+          margin: 0px;position: absolute;
+          top: 15px;
+          right: 35px;
+          color: #f1f1f1;
+          font-size: 40px;
+          font-weight: bold;
+          transition: 0.3s;
+      }
+
+      .close:hover,
+      .close:focus {
+          color: #bbb;
+          text-decoration: none;
+          cursor: pointer;
+      }
+
+      /* Responsive Columns */
+      @media only screen and (max-width: 700px){
+          .responsive {
+              width: 49.99999%;
+              margin: 6px 0;
+          }
+          .modal-content {
+              width: 100%;
+          }
+      }
+
+      @media only screen and (max-width: 500px){
+          .responsive {
+              width: 100%;
+          }
+      }
+
+      /* Clear Floats */
+      .clearfix:after {
+          content: "";
+          display: table;
+          clear: both;
+      }
+</style>
+
+<script>
+      // Get the modal
+      var modal = document.getElementById('myModal');
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() { 
+          modal.style.display = "none";
+      }
+
+      // Get all images and insert the clicked image inside the modal
+      // Get the content of the image description and insert it inside the modal image caption
+      var images = document.getElementsByTagName('img');
+      var modalImg = document.getElementById("img01");
+      var captionText = document.getElementById("caption");
+      var i;
+      for (i = 0; i < images.length; i++) {
+         images[i].onclick = function(){
+             modal.style.display = "block";
+             modalImg.src = this.src;
+             modalImg.alt = this.alt;
+             captionText.innerHTML = this.nextElementSibling.innerHTML;
+         }
+      }
+</script>
+
+<!--END PHOTO GRID-->
+
+
+<!--START FOOTER-->
 
       <div id="footer">
         <div class="social">
@@ -122,11 +355,7 @@
          </div>   
       </div>
 
-  <!-- JavaScript -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script>
-  <script>window.jQuery || document.write("<script src='js/jquery.min.js'>\x3C/script>")</script>
-  <script src="js/responsivethumbnailgallery.js"></script>
-  <script src="js/text.js"></script>
+<!--END FOOTER-->
 
 </body>
 
