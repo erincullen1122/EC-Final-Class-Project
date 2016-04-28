@@ -48,13 +48,12 @@
           </button>
 
           <div class="collapse navbar-collapse navbar-collapse" id="myNavbar">
-              <div class="nav-wrapper">
-                          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-                 <h1 class="title" style="display: inline-block; padding: 1%; margin: auto; font-size: 1.5rem; float: right; color: white; background-color: black;">my.Photography</h1>
+              <div class="#nav-wrapper">
+                
+                 <h1 class="title" style="display: inline-block; padding: 1%; margin: auto; font-size: 1.5rem; float: right; color: white; background-color: black;">                 
+                 my.Photography</h1>
+
+                  <a href="index.html"><img src="images/homeicon.png"></img></a>
               </div>
           </div>  
 
@@ -67,6 +66,16 @@
 
 
 <h2><span>PEOPLE<span></h2>
+    <h5><span>
+
+      Life's meanings can often be best conveyed through music and the messages they deliver. This particular song reminds me of the beauty in the world and the <div class="subtitle">PEOPLE</div> who bring it to life:
+      <div class="song">
+      "Dancin' in a sky filled with light, a dream of life comes to me like a catfish dancing on the end of the line.
+      Sky of blackness and sorrow, sky of love, sky of tears, sky of glory and sadness, sky of mercy, sky of fear and sky of memory and shadow - your burning wind fills my arms tonight. Sky of longing and emptiness and sky of fullness, sky of blessed life." <i>-Bruce Springsteen, The Rising</i>
+      <song>
+
+    </h5>
+    </span>
 
 <div class="wrapper">
 
@@ -155,162 +164,8 @@
         <div id="caption"></div>
       </div>
 
-    <div style="padding:6px; color: black; text-align: center; padding-bottom: 5%;">
-      <p>This example combines CSS3 (animation and media queries) and JavaScript, to create a responsive image gallery that will enlarge an image when it is clicked on.</p>
-    </div>
-
 </div>
 
-<style>
-      
-* {
-      font-family: 'Fira Sans', sans-serif;
-}
-      /* The Image Box */
-      div.img {
-          border: 1px solid #ccc;
-      }
-
-      div.img:hover {
-          border: 1px solid #777;
-      }
-
-      h2 { 
-          padding-top: 3%; 
-          padding-bottom: 2%;
-          padding-left: 1%;
-          margin: 1%;
-          color: black;
-          text-decoration: none;
-          text-transform: uppercase;
-          letter-spacing: 1px;
-          font-weight: 400;
-          text-shadow: 0 0 1px rgba(255,255,255,0.3);
-          font-size: 2rem;
-      }
-
-      /* The Image */
-      div.img img {
-          width: 100%;
-          height: auto;
-          cursor: pointer;
-      }
-
-      /* Description of Image */
-      div.desc {
-          padding: 15px;
-          text-align: center;
-          color: black;
-      }
-
-      * {
-          box-sizing: border-box;
-      }
-
-      /* Add Responsiveness */
-      .responsive {
-          padding: 0 6px;
-          padding-bottom: 10px;
-          float: left;
-          width: 24.99999%;
-      }
-
-      /* The Modal (background) */
-      .modal {
-          display: none; /* Hidden by default */
-          position: fixed; /* Stay in place */
-          z-index: 1; /* Sit on top */
-          padding-top: 100px; /* Location of the box */
-          left: 0;
-          top: 0;
-          width: 100%; /* Full width */
-          height: 100%; /* Full height */
-          overflow: auto; /* Enable scroll if needed */
-          background-color: rgb(0,0,0); /* Fallback color */
-          background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-      }
-
-      /* Modal Content (image) */
-      .modal-content {
-          margin: auto;
-          margin-top: 5%;
-          display: block;
-          width: 80%;
-          max-width: 700px;
-      }
-
-      /* Caption of Modal Image */
-      #caption {
-          margin: auto;
-          display: block;
-          width: 80%;
-          max-width: 700px;
-          text-align: center;
-          color: #ccc;
-          padding: 10px 0;
-          height: 150px;
-      }
-
-      /* Add Animation */
-      .modal-content, #caption {    
-          -webkit-animation-name: zoom;
-          -webkit-animation-duration: 0.6s;
-          animation-name: zoom;
-          animation-duration: 0.6s;
-      }
-
-      @-webkit-keyframes zoom {
-          from {transform:scale(0)} 
-          to {transform:scale(1)}
-      }
-
-      @keyframes zoom {
-          from {transform:scale(0.1)} 
-          to {transform:scale(1)}
-      }
-
-      /* The Close Button */
-      .close {
-          margin: 0px;position: absolute;
-          top: 15px;
-          right: 35px;
-          color: #f1f1f1;
-          font-size: 40px;
-          font-weight: bold;
-          transition: 0.3s;
-      }
-
-      .close:hover,
-      .close:focus {
-          color: #bbb;
-          text-decoration: none;
-          cursor: pointer;
-      }
-
-      /* Responsive Columns */
-      @media only screen and (max-width: 700px){
-          .responsive {
-              width: 49.99999%;
-              margin: 6px 0;
-          }
-          .modal-content {
-              width: 100%;
-          }
-      }
-
-      @media only screen and (max-width: 500px){
-          .responsive {
-              width: 100%;
-          }
-      }
-
-      /* Clear Floats */
-      .clearfix:after {
-          content: "";
-          display: table;
-          clear: both;
-      }
-</style>
 
 <script>
       // Get the modal
@@ -346,15 +201,20 @@
 <!--START FOOTER-->
 
       <div id="footer">
-        <div class="social">
+          <div style="padding:6px; color:white; text-align: center; padding-top: 2%;">
+              All photos by Erin Cullen Harris<br>
+             <a href="mailto:anniehall16@hotmail.com?subject=Email from myPhotography Site"><img src="images/mail.png"><img></a>
+          </div> 
+          <div class="social">
             <a href="https://www.facebook.com/erin.c.harris.9"><img src="images\facebook.png" alt="Facebook"></a>
             <a href="https://twitter.com/Erin_Cullen1122"><img src="images\twitter.png"></a> 
             <a href="https://www.instagram.com/anniehall16/"><img src="images\instagram.png"><a/>
             <a href="https://www.linkedin.com/in/erincullenharris"><img src="images\linkedin.png"></a> 
             <a href="https://github.com/erincullen1122"><img src="images\github.png"></a>
-         </div>   
+         </div>  
       </div>
 
+<!--END FOOTER--> 
 <!--END FOOTER-->
 
 </body>
